@@ -1,0 +1,27 @@
+//Enunciado del ejercicio> Escribe que tipo de selector sería la mejor opción en cada caso
+    Selecciona los elementos div que sean hijos de otro div
+        -> Selector de hijo div > div ✅
+    Selecciona los hijos de los elementos <p>
+        -> Selector descendente p > * {} ✅
+    Selecciona los elementos p que sean hijos de article
+        -> article > p {} ✅
+    Selecciona los p que esten dentro de un article
+        -> article p{} ✅
+    Selecciona los titulos h1 y los h3
+        -> *h1+h3 {} ❌ ---> h1, h3 {} ✅
+    Selecciona los ol que esten dentro de body
+        -> body > ol {} ❌ --> body ol {} ✅
+    Cualquier elemento que tenga la clase 'amarillo'
+        -> .amarillo {} / [class='amarillo'] {} ✅
+    Los elementos <ul> que sean hijos de <body>
+        -> body > ul {} ✅
+    Los elementos <a> que sean hijos de <p>
+        -> p > a {} ✅
+    Selecciona el elemento con id 'platano'
+        -> #platano {}/ [id='platano'] ✅
+    Todos los elementos <div> que sean hermanos de un elemento <h2>
+        -> div ~ h2 {} ❌--> h2 ~ div ✅
+    Todos los elementos <p> con clase = paisa, descendientes de un elemento <ul>
+        -> ul p.paisa {} ✅
+    Selecciona los <h1>, <h2>, <h3>  que tengan la clase "headertitle", hijos del header
+        -> .headertitle h1, h2, h3 {} ❌ --> h1.headertitle, h2.headertitle, h3.headertitle {}

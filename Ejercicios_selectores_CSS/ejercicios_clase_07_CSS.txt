@@ -1,0 +1,22 @@
+//Enunciado del ejercicio> Escribe que tipo de selector sería la mejor opción en cada caso
+    1. El primer elemento <a> hijo de <p>
+    -> p > a:first-of-type{} ✅
+    2. Selecciona los checkbox que esten marcados, hijos de un <form>
+    -> Selector de clase, input:checked + label{} ❌--> form > input[checkbox]:checked {} ✅
+    3. Selecciona el ultimo <p> que sea descendiente de <article>
+    -> Selector de tipo article p:last-of-type {} ✅
+    4. Selecciona el segundo  hijo de un elemento <section>
+    -> Selector de hijo section > *:nth-child(2){} ✅
+    5. Selecciona los hijos pares de un elemento <ol>
+    -> ol:nth-child(even){} ✅
+    6. Selecciona el antepenultimo <li> de un <ul> de longitud indefenido
+    -> Selector de tipo ul li:nth-last-child(3){} ✅
+    7. Los buttons que sean hijos unicos 
+    -> Selector de tipo, button:only-child{} ✅
+    8. El segundo <a> de dentro de un <p>
+    -> Selector de hijo, p a:nth-of-type(2) {} ✅
+    9. Los <span> que sean primeros hijos de un <p>
+    -> Selector de hijo, p > span:first-child{} ✅
+    10. Penultimo hijo de body
+    -> Selector de hijo, body > *:nth-last-child(2) {} ✅
+    
