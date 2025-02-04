@@ -1,0 +1,80 @@
+/* Ejercico de Width y Height */
+div.caja1 {
+    font-size: 28px;
+    text-align: justify;
+    width: 250px;
+    height: 200px;
+    border: 5px solid red;
+    background-color: grey;
+    padding: 10px;
+    margin: 25px;
+}
+div.caja2 { 
+    font-size: 25px;
+    text-align: justify;
+    color: aliceblue;
+    width: 300px;
+    height: 200px;
+    border: 7px solid #18bf2b;
+    background-color: grey;
+    padding: 5px;
+    margin: 0px;
+}
+/* Ejercicio de Margin */
+div.contenedor{
+    border: 3px solid red;
+}
+div.caja3 {
+    width: 50%;
+    border: 2px solid #ffd900;
+    padding: 10px;
+    margin: 20px 10px;
+}
+div.caja4 {
+    width: 50%;
+    border: 2px solid yellowgreen;
+    padding: 50px;
+    margin: 20px 50px;
+}
+div.caja5 {
+    width: 50%;
+    border: 2px solid #2f00ff;
+    padding: 100px;
+    margin: 20px 100px;
+}
+div.caja6 {
+    width: 200px;
+    border: 2px groove cyan;
+    margin: 10px 0px;
+}
+div.caja7 {
+    width: 200px;
+    border: 2px groove #ff0066;
+    margin: 10px 0px;
+    padding: 25px;
+}
+div.caja8 {
+    width: 200px;
+    border: 2px groove #00ff3c;
+    margin: 10px 0px;
+    padding: 50px;
+}
+div.caja9 {
+    border-style: groove dotted;
+    border-color: green black;
+    margin: 10px 0px;
+}
+div.caja10 { 
+    border-style: double dotted;
+    border-color: red blue;
+}
+div.caja11 { 
+    border-style: outset groove;
+    border-color: blue ;
+    margin: 10px 0px;
+}
+div.caja12 {
+    border-style: inset;
+    border-color: #ff0066;
+    margin: 10px 0px;
+}
