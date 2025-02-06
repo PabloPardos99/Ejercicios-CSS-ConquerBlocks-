@@ -1,0 +1,96 @@
+.banderas {
+    background-color: rgb(193, 193, 193);
+    border: 1px solid black;
+    padding: 20px;
+}
+.banderas div{
+    width: 300px;
+    height: 180px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+.colombia{ 
+    background-image: linear-gradient(
+        yellow 33%, 
+        blue 33%,
+        blue 66%, 
+        red 66%,
+        red);
+        /* Lo que hemos hecho es especificar cuando empieza y termina cada color,
+        en el caso del azul, hemos dicho que empieze en el 33% y que termine con azul en el 66%,
+        lo mismo con el rojo, empieza a partir del 66% y el resto termina en rojo */
+}
+.francia {
+    background-image: linear-gradient(
+        to right,  
+        red 33%, 
+        white 33%,
+        white 66%, 
+        blue 66%,
+        blue);
+}
+.italia {
+    background-image: linear-gradient(
+        to right,  
+        green 33%, 
+        white 33%,
+        white 66%, 
+        red 66%,
+        red);
+}
+.alemania { 
+    color: white;
+    background-image: linear-gradient(
+        black 33%, 
+        red 33%,
+        red 66%, 
+        yellow 66%,
+        yellow);
+        /* Lo que hemos hecho es especificar cuando empieza y termina cada color,
+        en el caso del azul, hemos dicho que empieze en el 33% y que termine con azul en el 66%,
+        lo mismo con el rojo, empieza a partir del 66% y el resto termina en rojo */
+}
+.japon {
+    background-image: radial-gradient(
+        circle,
+        red 30%,
+        white 10% 
+        /* En funcion de cuanto porcentaje de blanco apliquemos a la bandera, 
+        el rojo se verá mas fuerte o mas difuminado, el porcentaje de rojo indica su tamaño, mientras que el de blanco
+        indica cuanto de difuminado queremos. */
+    );
+}
+.polonia { 
+    background-image: linear-gradient(
+        white, 
+        white 50%,
+        red 50%,
+        red 
+        );
+        /* Lo que hemos hecho es especificar que queremos que empieze en blanco hasta el 50% osea la mitad 
+        y luego el rojo que empieze a partir del 50% hasta el final */
+}
+.myHeader {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: rgb(55, 130, 205);
+    background-image: url(../img/balloons.jpg);
+    background-position: top right;
+    background-size: 100%;
+    width: 500px;
+    
+}
+.myHeader h2{
+    background-color: rgba(0,0,0, .5);
+    padding-top: 5px 5px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.main {
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px;
+    width: 530px;
+}
