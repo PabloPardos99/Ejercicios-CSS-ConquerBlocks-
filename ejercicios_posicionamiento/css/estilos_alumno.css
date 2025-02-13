@@ -1,0 +1,241 @@
+section.container_ejercicio1 {
+    border: 1px groove black;
+    background-color: #cecece;
+    padding: 5px;
+    width: 250px;
+    height: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+div.rojo{
+    background-color: red;
+    width: 100px;
+    height: 20px;
+}
+div.azul{
+    position: relative;
+    background-color: #3700ff;
+    width: 100px;
+    height: 20px;
+    top: 85px;
+    left: 150px;
+}
+div.verde{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+div.amarillo{
+    background-color: #fff700;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: 39px;
+    left: 150px;
+}
+
+/*-----/Ejercicio 2/-----*/
+
+section.ejercicio2 {
+    border: 1px groove black;
+    background-color: #cecece;
+    width: 250px;
+    height: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: relative;
+}
+
+.ejercicio2 .rojo{
+    background-color: red;
+    width: 50px;
+    height: 45px;
+}
+.ejercicio2 .azul{
+    position: absolute;
+    background-color: #3700ff;
+    width: 50px;
+    height: 45px;
+    top: 80px;
+    left: 200px;
+}
+.ejercicio2 .verde{
+    background-color: green;
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 80px;
+}
+.ejercicio2 .amarillo{
+    background-color: #fff700;
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+}
+
+/*-----/Ejercicio 3/-----*/
+
+section.ejercicio3 {
+    border: 1px groove black;
+    background-color: #cecece;
+    width: 450px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: relative;
+}
+
+.ejercicio3 .azul{
+    position: absolute;
+    background-color: #3700ff;
+    width: 150px;
+    height: 80px;
+    top: 10px;
+    left: 150px;
+}
+.ejercicio3 .verde{
+    background-color: green;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.ejercicio3 .rojo{
+    background-color: red;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 170px;
+    z-index: 1;
+}
+.ejercicio3 .amarillo{
+    background-color: #fff700;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 90px;
+    left: 250px;
+}
+
+/*-----/Ejercicio 4/-----*/
+
+section.ejercicio4 {
+    border: 1px groove black;
+    background-color: #cecece;
+    width: 300px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: relative;
+}
+
+.ejercicio4  .verde{
+    background-color: green;
+    width: 50px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.ejercicio4  .amarillo{
+    background-color: #fff700;
+    width: 50px;
+    height: 120px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+.ejercicio4  .rojo{
+    background-color: red;
+    width: 50px;
+    height: 120px;
+    top: 50px;
+    left: 150px;
+    position: absolute;
+}
+.ejercicio4 .azul{
+    background-color: #3700ff;
+    width: 50px;
+    height: 120px;
+    top: 50px;
+    left: 200px;
+    position: absolute;
+}
+
+/*-----/Ejercicio 5/-----*/
+
+section.ejercicio5 {
+    border: 1px groove black;
+    background-color: #cecece;
+    width: 300px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    position: relative;
+}
+
+.ejercicio5  .amarillo{
+    background-color: #fff700;
+    width: 200px;
+    height: 30px;
+    top: 85px;
+    left: 50px;
+    position: absolute;
+}
+.ejercicio5  .rojo{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    top: 35px;
+    left: 50px;
+    position: absolute
+}
+.ejercicio5 .azul{
+    background-color: #3700ff;
+    width: 50px;
+    height: 110px;
+    top: 20px;
+    left: 70px;
+    position: absolute;
+}
+.ejercicio5  .verde{
+    background-color: green;
+    width: 50px;
+    height: 110px;
+    top: 20px;
+    left: 180px;
+    position: absolute;
+    z-index: 1;
+}
+
+/*-----/Ejercicio 8/-----*/
+
+.ejercicio8 header {
+    border: 1px solid black;
+    padding: 20px;  
+    margin-bottom: 20px;
+}
+.ejercicio8 sidebar{
+    border: 1px solid black;
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.ejercicio8 main{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ejercicio8 footer{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
