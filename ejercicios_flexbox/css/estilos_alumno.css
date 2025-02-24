@@ -273,17 +273,17 @@ header.ejercicio7 div#img3 img{
 
 /* Div containers */
 
-header.ejercicio7 div#img1{
+header.ejercicio7 div:first-of-type{
     background-color: rgb(47, 151, 139);
     width: 500px;
     height: 700px;
 }
-header.ejercicio7 div#img2{
+header.ejercicio7 div:nth-of-type(2){
     background-color:  rgb(8, 161, 208);
     width: 500px;
     height: 700px;
 }
-header.ejercicio7 div#img3{
+header.ejercicio7 div:nth-of-type(3){
     background-color:rgb(38, 186, 98);
     width: 500px;
     height: 700px;
