@@ -1,0 +1,718 @@
+nav.flaticon img {
+  width: 60px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('/flaticons/fonts/icomoon.eot?uvq7w7');
+  src: url('/flaticons/onts/icomoon.eot?uvq7w7#iefix') format('embedded-opentype'),
+    url('/flaticons/fonts/icomoon.ttf?uvq7w7') format('truetype'),
+    url('/flaticons/fonts/icomoon.woff?uvq7w7') format('woff'),
+    url('/flaticons/fonts/icomoon.svg?uvq7w7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bolt:before {
+  content: "\e901";
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+
+.icon-exit:before {
+  content: "\ea14";
+}
+
+.icon-facebook2:before {
+  content: "\ea91";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-spotify:before {
+  content: "\ea94";
+}
+
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+.icon-soundcloud2:before {
+  content: "\eac4";
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: black;
+  opacity: .5;
+  font-size: 2rem;
+}
+
+/* Controlamos la opacidad cuando el cursos se posiciona encima del icono */
+.icon {
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+.icon a:hover {
+  opacity: 1;
+  color: #bcbcbc;
+}
+
+/* Ejercicio  1 */
+
+.mainContainer.ejercicio1 {
+  border: 3px solid red;
+  width: 300px;
+  min-height: 180px;
+  display: flex;
+}
+
+.mainContainer.ejercicio1 div {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 14px;
+}
+
+/* Aqui ha ocurrido una cosa curiosa y es que el primer div de todo 
+el codigo es la clase contenedor, por tanto a la hora de pintarlo, 
+este ocupaba todo el espacio del padre, para solucionarlo ha sido 
+tan simple como colocar un selector indicando que actue con el primer 
+hijo div dentro de un div */
+div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+
+}
+
+div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+
+}
+
+div:nth-child(6) {
+  background-color: #F58329;
+  color: azure;
+
+}
+
+div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 2 */
+
+.mainContainer.ejercicio2 {
+  border: 3px solid red;
+  width: 300px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.mainContainer.ejercicio2 div {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Aqui ha ocurrido una cosa curiosa y es que el primer div de todo 
+el codigo es la clase contenedor, por tanto a la hora de pintarlo, 
+este ocupaba todo el espacio del padre, para solucionarlo ha sido 
+tan simple como colocar un selector indicando que actue con el primer 
+hijo div dentro de un div */
+.ejercicio2 div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio2 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 3 */
+
+.mainContainer.ejercicio3 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 300px;
+  min-height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.mainContainer.ejercicio3 div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.ejercicio3 div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+}
+
+.ejercicio3 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio3 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 4 */
+
+.mainContainer.ejercicio4 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 300px;
+  min-height: auto;
+  display: flex;
+
+}
+
+.mainContainer.ejercicio4 div {
+  width: 33.33%;
+  text-align: center;
+  flex: 1;
+  
+}
+
+.ejercicio4 div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+}
+
+.ejercicio4 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+  order: -1;
+
+}
+
+.ejercicio4 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure;
+  order: 1;
+}
+
+.ejercicio4 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio4 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 5 */
+
+.mainContainer.ejercicio5 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 400px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mainContainer.ejercicio5 div {
+  max-height: 10px;
+  font-size: 5px;
+  text-align: center;
+  flex: 1;
+}
+
+.ejercicio5 div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+}
+
+.ejercicio5 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure; 
+}
+
+.ejercicio5 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio5 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 6 */
+
+.mainContainer.ejercicio6 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 400px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mainContainer.ejercicio6 div {
+  text-align: center;
+  margin-bottom: 170px;
+}
+
+.ejercicio6 div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+  font-size: 7px;
+  width: 5px;
+  height: 8px;
+}
+
+.ejercicio6 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+  width: 10px;
+  height: 15px;
+  font-size: 13px;
+}
+
+.ejercicio6 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+  width: 12px;
+  font-size: 18px;
+}
+
+.ejercicio6 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+  width: 15px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.ejercicio6 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+  margin-top: 10px;
+  font-size: 3px;
+  width: 3px;
+  height: 4px;
+}
+
+.ejercicio6 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure; 
+}
+
+.ejercicio6 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio6 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio6 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio6 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+  margin-top: 1px;
+  font-size: 14px;
+  width: 17px;
+}
+
+/* Ejercicio 7 */
+
+.mainContainer.ejercicio7 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 300px;
+  min-height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.mainContainer.ejercicio7 div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.ejercicio7 div div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+}
+
+.ejercicio7 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+
+}
+
+.ejercicio7 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+
+}
+
+/* Ejercicio 8 */
+
+.mainContainer.ejercicio8 {
+  /* Gracias a flex-wrap podemos hacer que las cajas salten de linea */
+  border: 3px solid red;
+  width: 400px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: raw;
+}
+
+.mainContainer.ejercicio8 div {
+  text-align: center;
+  flex: 1;
+}
+
+.ejercicio8 div:nth-child(1) {
+  background-color: #25CCA2;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(2) {
+  background-color: #258CCC;
+  color: azure;
+
+}
+
+.ejercicio8 div:nth-child(3) {
+  background-color: #7025CC;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(4) {
+  background-color: #1b1820;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(5) {
+  background-color: #F5C829;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(6) {
+  background-color: #F58329;
+  color: azure; 
+  height: 20px;
+  margin-top: 100px;
+}
+
+.ejercicio8 div:nth-child(7) {
+  background-color: #F53F29;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(8) {
+  background-color: #999898;
+  color: azure;
+  height: 20px;
+}
+
+.ejercicio8 div:nth-child(9) {
+  background-color: #26D15B;
+  color: azure;
+  height: 30px;
+  margin-top: 200px;
+}
+
+.ejercicio8 div:nth-child(10) {
+  background-color: #04a962;
+  color: azure;
+  height: 20px;
+}
