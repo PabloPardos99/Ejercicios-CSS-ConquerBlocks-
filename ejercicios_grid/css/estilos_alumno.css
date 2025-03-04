@@ -1,0 +1,406 @@
+nav.flaticon img {
+    width: 60px;
+  }
+  
+  @font-face {
+    font-family: 'icomoon';
+    src: url('/flaticons/fonts/icomoon.eot?uvq7w7');
+    src: url('/flaticons/onts/icomoon.eot?uvq7w7#iefix') format('embedded-opentype'),
+      url('/flaticons/fonts/icomoon.ttf?uvq7w7') format('truetype'),
+      url('/flaticons/fonts/icomoon.woff?uvq7w7') format('woff'),
+      url('/flaticons/fonts/icomoon.svg?uvq7w7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-bolt:before {
+    content: "\e901";
+  }
+  
+  .icon-home:before {
+    content: "\e900";
+  }
+  
+  .icon-exit:before {
+    content: "\ea14";
+  }
+  
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  
+  .icon-spotify:before {
+    content: "\ea94";
+  }
+  
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  
+  .icon-soundcloud2:before {
+    content: "\eac4";
+  }
+
+.icon {
+    text-decoration: none;
+    list-style: none;
+    color: #ff0000;
+}
+  
+.icon a:hover {
+    opacity: 1;
+    color: #bcbcbc;
+}
+
+/* Ejercicio 1 */
+.ejercicio1 {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 5px;
+}
+
+.ejercicio1 div {
+    height: 70px;
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Ejercicio 2 */
+
+.ejercicio2 {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 5px;
+}
+
+.ejercicio2 div {
+    height: 70px;
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.principal {
+    grid-column: 1 / span 3;
+    /* Mediante span podemos especificar cuanto
+    queremos que ocupe esa columna */
+    /* El comando x / x nos permite especificar donde
+    queremos que empieze y acabe ese item */
+}
+
+/* Ejercicio 3 */
+
+.ejercicio3 {
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 8px;
+}
+
+.ejercicio3 div {
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.ejercicio3 div.header {
+    grid-column: 1 / span 3;
+    /* Mediante span podemos especificar cuanto
+    queremos que ocupe esa columna */
+    /* El comando x / x nos permite especificar donde
+    queremos que empieze y acabe ese item */
+}
+div.ejercicio3 div.sidebar {
+    grid-row: 2 / span 2;
+}
+
+/* Ejercicio 4 */
+
+.ejercicio4 {
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 8px;
+}
+
+.ejercicio4 div {
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.ejercicio4 div.header {
+    grid-column: 1 / span 3;
+    /* Mediante span podemos especificar cuanto
+    queremos que ocupe esa columna */
+    /* El comando x / x nos permite especificar donde
+    queremos que empieze y acabe ese item */
+}
+div.ejercicio4 div.sidebar {
+    grid-row: 2 / span 2;
+}
+
+/* Ejercicio 5 */
+
+.ejercicio5 {
+    display: grid;
+    width: 450px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 8px;
+}
+
+.ejercicio5 div {
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.ejercicio5 div.header {
+    /* Especificamos con grid-area que la celda 1
+   empiece en la primera fila, empiece en la primera columna y queremos que
+   termine ocupando con span 1 fila y termine en la tercera columna 
+   ocupandola con span */
+    grid-area: 1 / 1 / span 1 / span 3 ;
+}
+div.ejercicio5 div.sidebar {
+    /* Especificamos con grid-area que la celda 2
+   empiece en la primera fila, empiece en la cuarta columna y queremos que
+   termine ocupando con span 2 fila y termine en la primera columna 
+   ocupandola con span 1 */
+   grid-area: 1 / 4 / span 2 / span 1;
+}
+
+/* Ejercicio 6 */
+
+.ejercicio6 {
+    display: grid;
+    width: 450px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    margin-left: 8px;
+}
+
+.ejercicio6 div {
+    background-color: #6e838d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border: 1px groove black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.ejercicio6 div.celda1 {
+    
+    grid-area: 1 / 1 / span 1 / span 3 ;
+}
+div.ejercicio6 div.celda2 {
+    
+   grid-area: 1 / 4 / span 1 / span 3;
+}
+div.ejercicio6 div.celda3 {
+   
+   grid-area: 2 / 1 / span 1 / span 2 ;
+}
+div.ejercicio6 div.celda4 {
+    
+   grid-area: 2 / 3 / span 1 / span 4 ;
+}
+div.ejercicio6 div.celda5 {
+   
+   grid-area: 3 / 1 / span 1 / span 6 ;
+}
+
+/* Ejercicio 7 */
+
+.ejercicio7 {
+  display: grid;
+  width: 450px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 50px 120px 50px;
+  gap: 1px;
+  margin-left: 8px;
+}
+
+.ejercicio7 div {
+  background-color: #6e838d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  border: 1px groove black;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.ejercicio7 div.celda1 {
+  background-color: #a86225;
+  grid-area: 1 / 3 / span 1 / span 4 ;
+}
+div.ejercicio7 div.celda2 {
+  
+ grid-area: 2 / 1 / span 1 / span 2;
+}
+div.ejercicio7 div.celda3 {
+ 
+ grid-area: 2 / 3 / span 1 / span 4 ;
+}
+div.ejercicio7 div.celda4 {
+ background-color: #383333;
+ grid-area: 3 / 1 / span 1 / span 6 ;
+}
+
+/* Ejercicio 8 */
+
+.ejercicio8 {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-left: 5px;
+}
+
+.ejercicio8 div {
+  height: 70px;
+  background-color: #6e838d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border: 1px groove black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ejercicio8 div div:first-of-type{
+  order: 1;
+}
+
+/* Ejercicio 9 */
+
+.ejercicio9 {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: column;
+  gap: 1px;
+  margin-left: 5px;
+}
+
+.ejercicio9 div {
+  height: 40px;
+  background-color: #6e838d;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border: 1px groove black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ejercicio9 div div {
+  order: 3;
+}
+
+/* Ejercicio 10 */
+
+.ejercicio10 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-template-rows: 80px 150px 150px;
+  gap: 1px;
+  margin-left: 5px;
+}
+.ejercicio10 div {
+  background-color: #6e838d;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ejercicio10 div.celda4 {
+  grid-area: 2 / 2 / span 2;
+}
+
+.ejercicio10 div.gridInterno {
+  display: grid;
+  gap: 1px;
+  background-color: #ffffff;
+}
+
+.gridInterno div{
+  text-align: center;
+  color: black;
+  background-color: #D5D5F2;
+}
+.gridInterno div:first-of-type{
+  grid-area: 1 / 1 / span 1 / span 2;
+}
