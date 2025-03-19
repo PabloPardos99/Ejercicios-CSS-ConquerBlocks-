@@ -1,0 +1,176 @@
+nav.flaticon img {
+    width: 60px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('/flaticons/fonts/icomoon.eot?uvq7w7');
+    src: url('/flaticons/onts/icomoon.eot?uvq7w7#iefix') format('embedded-opentype'),
+        url('/flaticons/fonts/icomoon.ttf?uvq7w7') format('truetype'),
+        url('/flaticons/fonts/icomoon.woff?uvq7w7') format('woff'),
+        url('/flaticons/fonts/icomoon.svg?uvq7w7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bolt:before {
+    content: "\e901";
+}
+
+.icon-home:before {
+    content: "\e900";
+}
+
+.icon-exit:before {
+    content: "\ea14";
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-spotify:before {
+    content: "\ea94";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+.icon-soundcloud2:before {
+    content: "\eac4";
+}
+
+.icon {
+    text-decoration: none;
+    list-style: none;
+    color: #ff0000;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #ffa600;
+}
+
+.icon a:hover {
+    opacity: 1;
+    color: #1a1818;
+}
+
+.exit a {
+    list-style: none;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/* Ejercicio 2 */
+
+.ejercicio2 li{
+    border: 1px solid #80808056;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.ejercicio2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.ejercicio2 a{
+    display: block;
+    padding: 15px;
+}
+
+.ejercicio2 li:hover {
+    background-color: #3f7fff;
+}
+
+.ejercicio2 a:hover{
+    color: whitesmoke;
+}
+
+/* Ejercicio 3 */
+
+.ejercicio3 {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #80808056;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.ejercicio3 li+li {
+    border-top: 1px solid #80808056;
+}
+
+.ejercicio3 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.ejercicio3 a{
+    display: block;
+    padding: 15px;
+}
+
+.ejercicio3 span {
+    display: inline-block;
+    position: absolute;
+    right: 260px;
+    background-color: #3f7fff;
+    color: aliceblue;
+    /* El padding de los lados es lo que determina
+    la elipse en el border radius */
+    padding: 2px 9px;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ejercicio3 li:hover {
+    background-color: #3f7fff;
+}
+
+.ejercicio3 a:hover{
+    color: whitesmoke;
+}
+
+/* Cambiamos el color del numero de notificaciones */
+.ejercicio3 li:hover a span{
+    background-color: whitesmoke;
+    color: #3f7fff;
+}

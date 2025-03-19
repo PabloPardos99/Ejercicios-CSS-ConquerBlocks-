@@ -140,6 +140,7 @@ que se generan de manera automatica en una tabla */
 }
 
 /* Ejercicio 3 */
+
 .ejercicio3 {
     border: 2px solid black;
 }
@@ -188,4 +189,131 @@ que se generan de manera automatica en una tabla */
 .marked {
     background-color: #ffe83a;
     font-weight: bold;
+}
+
+/* Ejercicio 4 */
+
+.ejercicio4, .ejercicio3 td, .ejercicio3 th {
+    border-spacing: 0;
+}
+
+.ejercicio4 td, .ejercicio4 th {
+    padding: 15px 70px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.report{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 800;
+    color: #373737;
+}
+
+.ejercicio4 thead th{
+    font-weight: normal;
+}
+
+.ejercicio4 tbody th {
+    font-weight: bold;
+}
+
+.ejercicio4 thead, tbody tr:nth-child(even){
+    background-color: white;
+}
+
+.ejercicio4 tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+
+.ejercicio4 a.button {
+    background-color: #ccc;
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Creamos los estados de cada boton */
+
+.ejercicio4 .button.btn--progress {
+    background-color: #00b900;
+    color: #eeeeee;
+}
+.ejercicio4 .button.btn--hold {
+    background-color: #f51d00;
+    color: #eeeeee;
+}
+.ejercicio4 .button.btn--open {
+    background-color: #f5d000;
+    color: black;
+}
+
+/* Ejercicio 5 */
+
+.ejercicio5 body {
+    background-color: #222; /* Fondo oscuro */
+}
+
+.ejercicio5 table {
+    background-color: #333; /* Color de fondo de la tabla */
+}
+
+.ejercicio5 {
+    border-spacing: 0 1;
+}
+
+
+.ejercicio5 td, .ejercicio5 th {
+    padding: 15px 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color: #e4e4e4;
+}
+
+.ejercicio5 tbody tr:nth-child(even) {
+    background-color: #4a4a4a;
+}
+.ejercicio5 tbody tr:nth-child(odd) {
+    background-color: #4a4a4a;
+}
+
+.ejercicio5 tbody tr td {
+    color: #c6c6c6;
+}
+
+.ejercicio5 tbody td h3 {
+    color: #a1a1a1;
+} 
+
+
+/* Creamos la separacion de debajo de las celdas */
+
+.ejercicio5 table {
+    width: 100%;
+    border-collapse: collapse; /* Evita espacios extra entre bordes */
+}
+
+.ejercicio5 tr {
+    border-bottom: 8px solid #2a2a2acf; /* Línea sutil debajo de cada fila */
+}
+
+.ejercicio5 tr:last-child {
+    border-bottom: none; /* Quitar la línea de la última fila */
+}
+
+.ejercicio5 td {
+    padding: 15px; /* Espaciado interno */
+    color: white; /* Color de texto */
+}
+
+.ejercicio5 input {
+    display: inline-block;
 }

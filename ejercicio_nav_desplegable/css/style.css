@@ -1,0 +1,70 @@
+body{
+    padding: 16px;
+}
+
+.menu>ul{
+    margin: 0;
+    padding: 0;
+    /* width: 700px; */
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+}
+  
+.menu>ul>li{
+    list-style:  none;
+    flex: 1;
+}
+
+/* Aqui no podemos poner la clase 
+.menu ya que tiene mayor prioridad que 
+nav y por tanto pintará de color
+azul el menu desplegable, sin embargo con
+nav, al tener menos piroridad, si que 
+permite el pintarlo */
+nav>ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: #3caee3;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+  
+  
+.menu>ul>li>a:hover {
+    background-color: black;
+}
+
+
+/* Menu desplegable */
+
+
+.menu_oculto { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.menu_oculto a{
+    background-color: black;
+}
+
+/* Interactuamos sobre la pestaña */
+
+nav>ul>li:hover .menu_oculto{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.menu_oculto a:hover{
+    background-color: #3caee3;
+}
